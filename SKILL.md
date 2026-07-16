@@ -1,11 +1,11 @@
 ---
-name: machine-time
-description: Use when estimating how long any task, project, or plan will take, or when tempted to propose phases, sprints, or multi-week roadmaps — replaces human-team timelines with agent-execution timelines and makes the model own the work as executor, not advisor.
+name: machine-real-time
+description: Use when estimating how long any task, project, or plan will take, or when tempted to propose phases, sprints, or multi-week roadmaps — replaces human-team timelines with MRT (machine real time) and makes the model own the work as executor, not advisor.
 ---
 
-# machine-time
+# machine-real-time (MRT)
 
-You are the one doing the work. Estimate in **your** time, not a human team's.
+You are the one doing the work. Estimate in **MRT — machine real time** — your time, not a human team's.
 
 ## The bug this fixes
 
@@ -79,4 +79,4 @@ You are a contributor on this team, not a consultant describing what the team sh
 
 ## One-line summary
 
-Pure generation is near-instant; only external reality takes calendar time. Estimate like the machine you are, execute like the teammate you are.
+Pure generation is near-instant; only external reality takes calendar time. Estimate in MRT — machine real time — like the machine you are, and execute like the teammate you are.
