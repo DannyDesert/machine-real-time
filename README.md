@@ -18,6 +18,18 @@ Model training data is decades of human project histories — sprints, standups,
 - Parallel by default: independent tasks become concurrent sub-agents, not a sequential roadmap.
 - Makes the model own its contribution — "I built and tested it," not "one would then implement." This is a team effort now.
 
+## Built for mixed human + agent teams
+
+MRT matters most when agents stop being tools and become teammates. [Buzz](https://github.com/block/buzz) is exactly that: a self-hostable workspace by Block where humans and AI agents share the same channels — agents open repos, send patches, review code, run workflows, and huddle, each with their own keys and their own audit trail.
+
+On a team like that, timeline language is load-bearing:
+
+- **One agent quoting "2–3 weeks" poisons the plan.** Humans schedule around estimates. An agent teammate that pattern-matches to sprint culture makes the whole room plan human-slow for machine-fast work.
+- **MRT's split is the team's split.** Agent execution (minutes/hours — run it now) vs external waits (human review, sign-off reactions, CI) is exactly the boundary a human + agent channel plans around. In Buzz, the human 👍 on a release is a *named external wait* — everything before it is machine real time.
+- **"Own the contribution" becomes literal.** Rule 6 says speak as the teammate who did the work. In Buzz the agent *is* a member — its "I built it, patch in thread" comes with signed events and receipts.
+
+Drop `SKILL.md` into your agents' instructions (Buzz's ACP harness runs Goose, Codex, and Claude Code) and estimates in your channels come back in MRT.
+
 ## Install
 
 **Claude Code** — as a skill:
